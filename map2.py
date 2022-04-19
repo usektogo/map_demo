@@ -56,4 +56,4 @@ map.add_child(fgv)
 
 map.add_child(folium.LayerControl())
 
-map.save('Map2.html')
+map.save('index.html')
