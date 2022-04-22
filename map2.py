@@ -43,7 +43,7 @@ fgp.add_child(folium.GeoJson(data = open('resources/world.json', 'r', encoding='
 style_function=lambda x: {'fillColor':'red' if x['properties']['POP2005'] < 2000000 
 else 'yellow' if 2000000 <= x['properties']['POP2005'] < 5000000 
 else 'green' if 5000000 <= x['properties']['POP2005'] < 100000000 
-else 'blue' if 100000000 <= x['properties']['POP2005'] < 200000000 else 'black' }))
+else 'blue' if 100000000 <= x['properties']['POP2005'] < 200000000 else 'pink' }))
 
 
 fgw = folium.FeatureGroup(name='Value')
